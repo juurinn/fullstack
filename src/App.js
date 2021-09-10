@@ -50,6 +50,7 @@ class App extends Component {
 
         axios.post('http://localhost:4000/app/signup', registered)
             .then(response => console.log(response.data))
+            .catch(error => console.log("Already exists"))
 
         this.setState({
             fullName:'',
