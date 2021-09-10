@@ -1,2 +1,1 @@
-# fullstack
- 
+# FUllstack tehtävä kurssille "Ohjelmistokehittäjänä toimijana"
