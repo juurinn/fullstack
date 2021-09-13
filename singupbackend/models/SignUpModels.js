@@ -3,21 +3,21 @@ const mongoose = require('mongoose')
 const signUpTemplate = new mongoose.Schema({
     fullName:{
         type:String,
-        require:true
+        required:true
     },
     userName:{
         type:String,
-        require:true,
+        required:true,
         unique:true
     },
     email:{
         type:String,
-        require:true,
+        required:true,
         unique:true
     },
     password:{
         type:String,
-        require:true
+        required:true
     },
     date:{
         type:Date,
